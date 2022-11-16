@@ -39,7 +39,6 @@ namespace InMemoryApp.Web.Controllers
 
             _memoryCache.Set<string>("time", DateTime.Now.ToString(), options);
 
-
             var product = new Product
             {
                 Id = 1,
